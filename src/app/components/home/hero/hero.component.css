@@ -1,0 +1,13 @@
+.image-overlay {
+  margin-top: 100px;
+  background-image: url("../../../../assets/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.size{
+  align-content: center;
+  height: 100%;
+  width: auto;
+  background-color: #f6f0e7;
+}

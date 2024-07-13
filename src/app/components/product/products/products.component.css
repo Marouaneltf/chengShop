@@ -1,0 +1,13 @@
+.list-group-item {
+  cursor: pointer;
+}
+
+pagination-controls {
+  display: block;
+  text-align: center;
+  margin-top: 22px;
+}
+.list-group-item-action.active {
+  background-color: #eee0ca;
+  color: #000000; /* Text color for active state */
+}
