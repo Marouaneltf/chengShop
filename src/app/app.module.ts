@@ -132,6 +132,7 @@ export function tokenGetter() {
     NgxSpinnerModule.forRoot({ type: 'ball-scale-multiple' }),
     BrowserModule,
     BrowserAnimationsModule,
+    
   ],
   providers: [AuthGuard, { provide: LocationStrategy, useClass: HashLocationStrategy }],
   bootstrap: [AppComponent],

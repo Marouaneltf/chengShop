@@ -9,24 +9,26 @@
       class="card mb-3"
     >
       <div class="card-header bg-body-tertiary">
-        <div class="row mx-2">
-          <div class="col-2 d-block fw-semibold">
-            Member
-            <span class="d-block fw-light">{{ order.user }}</span>
-          </div>
-          <div class="col-2 d-block fw-semibold">
-            Order Date
-            <span class="d-block fw-light">{{ order.createdAt | date }}</span>
-          </div>
-          <div class="col-2 d-block fw-semibold">
-            Order Summary
-            <span class="d-block fw-light"
-              >{{ order.orderItems.length }} Products</span
-            >
-          </div>
-          <div class="col-2 d-block fw-semibold">
-            Total
-            <span class="d-block fw-light">{{ order.total | currency }}</span>
+        <div class="row ">
+          <div class="col-7">
+            <div class=" d-block fw-semibold">
+              Member
+              <span class="d-block fw-light">{{ order.user }}</span>
+            </div>
+            <div class=" d-block fw-semibold">
+              Order Date
+              <span class="d-block fw-light">{{ order.createdAt | date }}</span>
+            </div>
+            <div class=" d-block fw-semibold">
+              Order Summary
+              <span class="d-block fw-light"
+                >{{ order.orderItems.length }} Products</span
+              >
+            </div>
+            <div class=" d-block fw-semibold">
+              Total
+              <span class="d-block fw-light">{{ order.total | currency }}</span>
+            </div>
           </div>
           <div class="col-4 d-flex align-items-center justify-content-end">
             <button

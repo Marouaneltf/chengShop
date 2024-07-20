@@ -10,3 +10,20 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.row{
+  width: auto!important;
+}
+
+.img-fluid{
+  max-width: 100% !important;
+}
+.card-body{
+  contain: content !important;
+}
+
+.list-group-item.active {
+  z-index: 2;
+  color: var(--bs-list-group-active-color);
+  background-color: var(--bs-list-group-active-bg);
+  border-color: #eee0ca!important;
+}
